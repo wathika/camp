@@ -490,6 +490,25 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    float: right;
+    text-transform: uppercase;
+    text-transform: none;
+    line-height: 40px;
+}
+
 ::-moz-selection {
     text-shadow: none;
     color: #fff;
