@@ -78,7 +78,7 @@ aside {
 }
 
  .navbar-brand {
-     padding:0;
+     padding:20px;
      float:none;
      height:90px;
      display:table-cell;
@@ -86,11 +86,13 @@ aside {
      vertical-align:top;
      margin: 0;
 }
+.logo {float: left}
 
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
+    background-color: transparent;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -100,7 +102,7 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #f05f40;
+    color: #000;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -111,7 +113,8 @@ aside {
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
-    font-size: 13px;
+    padding-top: 30px;
+    font-size: 15px;
     font-weight: 700;
     color: #222;
 }
