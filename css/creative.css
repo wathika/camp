@@ -113,7 +113,7 @@ aside {
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
-    padding-top: 30px;
+    padding-top: 33px;
     font-size: 15px;
     font-weight: 700;
     color: #222;
@@ -205,6 +205,7 @@ header .header-content {
     width: 100%;
     padding: 100px 15px;
     text-align: center;
+    padding-top: 200px;
 }
 
 header .header-content .header-content-inner h1 {
@@ -219,12 +220,15 @@ header .header-content .header-content-inner hr {
 }
 
 header .header-content .header-content-inner p {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     font-size: 16px;
     font-weight: 300;
     color: rgba(255,255,255,.7);
 }
 
+header .header-content .header-content-inner a {
+    margin-bottom: 10px;
+}
 @media(min-width:768px) {
     header {
         min-height: 100%;
