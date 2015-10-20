@@ -65,6 +65,10 @@ p {
     background-color: #222;
 }
 
+#contact {
+    background-color: #E8E8E8;
+}
+
 .text-faded {
     color: rgba(255,255,255,.7);
 }
@@ -457,6 +461,30 @@ fieldset[disabled] .btn-primary.active {
 .team-member p {
     margin-top: 0;
 }
+
+.form-group input {
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #000;
+    height: 40px;
+}
+
+.form-group textarea {
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #000;
+    height: 150px;
+}
+
+.form-group input:hover, .form-group input:focus {
+    border-bottom: 2px solid #f05f40;
+    outline: 0px;
+    }
+
+.form-group textarea:hover, .form-group textarea:focus {
+    border-bottom: 2px solid #f05f40;
+    outline: 0px;
+    }
 
 ul.social-buttons {
     margin-bottom: 0;
