@@ -463,14 +463,14 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .form-group input {
-    background: transparent;
+/*    background: transparent;*/
     border: 0px;
     border-bottom: 1px solid #000;
     height: 40px;
 }
 
 .form-group textarea {
-    background: transparent;
+/*    background: transparent;*/
     border: 0px;
     border-bottom: 1px solid #000;
     height: 150px;
